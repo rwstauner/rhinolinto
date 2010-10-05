@@ -1,0 +1,9 @@
+A simple runtime configurable jslint using rhino.
+
+Download local copies of:
+  - rhino from Mozilla
+  - jslint (rhino-edition) from jslint.com
+
+Use those to run jslint on supplied javascript files,
+and allow jslint options to be passed in via a JSON file.
+Eventually options will probably be able to be specified on the command line as well.
